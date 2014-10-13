@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "NotifyExtender",
+  "description": "Extends the ingress notifications to your desktop",
+  "version": "1.0",
+
+  "permissions": [
+    "notifications"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "notification.html"
+  }
+}
