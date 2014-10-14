@@ -1,1 +1,0 @@
-post("register", "regId=1234")
