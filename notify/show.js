@@ -3,7 +3,7 @@ chrome.notifications.create(
     type: 'basic', 
     iconUrl: 'img/ingress.png', 
     title: "Guardian", 
-    message: "Mosaic couch under attack by cerebr0" 
+    message: "Mosaic couch under attack by <player>" 
     },
 
 function() {} 
