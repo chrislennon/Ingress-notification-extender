@@ -25,7 +25,7 @@ function sendRegistrationId(callback) {
   post("register", registrationId);
 }
 
-chrome.runtime.onInstalled.addListener(function() {
+chrome.runtime.onStartup.addListener(function() {
   chrome.storage.local.get("registered", function(result) {
     // If already registered, bail out.
     if (result["registered"])
