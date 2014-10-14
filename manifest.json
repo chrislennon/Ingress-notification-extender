@@ -5,6 +5,9 @@
   "description": "Extends the ingress notifications to your desktop",
   "version": "1.0",
 
+  "background": {
+    "scripts": ["gcm/background.js"]
+  },
   "permissions": [
     "notifications",
     "http://www.dionsegijn.nl/"
