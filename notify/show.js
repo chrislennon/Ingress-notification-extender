@@ -1,7 +1,7 @@
 chrome.notifications.create(
     'name-for-notification',{   
     type: 'basic', 
-    iconUrl: 'ingress.png', 
+    iconUrl: 'img/ingress.png', 
     title: "Guardian", 
     message: "Mosaic couch under attack by cerebr0" 
     },
